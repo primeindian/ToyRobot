@@ -29,6 +29,7 @@ public class CommandProcessor : IProcessCommands
         switch (parts[0])
         {
             case Operations.Place:
+                if (parts.Length != 2) break;
                 string[] args = parts[1].Split(',');
                 if (args.Length != 3) break;
                 var xParse = int.TryParse(args[0], out int x);
