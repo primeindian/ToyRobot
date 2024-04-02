@@ -1,0 +1,7 @@
+
+*.v2
+.vs/
+ToyRobot.Tests.Unit/bin/
+ToyRobot.Tests.Unit/obj/
+ToyRobot/obj/
+ToyRobot/bin/
